@@ -1,0 +1,42 @@
+/* Importing font  */
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&family=Yuji+Hentaigana+Akari&display=swap');
+
+/* CSS Reset  */
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Slackside One', cursive;
+}
+body{
+    position: relative;
+    background-image: url("bacimg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 50vw;
+}
+#container{
+    position: absolute;
+    top:40%;
+    left:40%;
+    transform: translate(-100,-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ color: white;
+ border: 2px solid white;
+ min-width: 900px;
+ min-height: 300px;
+}
+#heading{
+    font-size: 70px;
+    font-weight: 600;
+  text-align: center;
+}
+#quote{
+    font-size: 30px;
+
+    text-align: center;
+}
